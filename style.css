@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Catamaran:wght@100..900&family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Poppins:wght@200;300;400;500&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+
+    color: #F8FAFC;
+     
+        text-align: center;
+        background: url('hackathon.webp') no-repeat center center fixed;
+        background-size: cover;
+        color: #09f211; 
+    
+    
+}
+
+header {
+    background: #0F172A; 
+    color:orangered;
+    padding: 60px 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: #F97316; 
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: white;
+    color: #F97316;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+#about {
+    background: #1E293B; 
+    padding: 40px;
+}
+
+#prizes {
+    background: #14213D; 
+    padding: 40px;
+}
+
+.prize-box {
+    display: inline-block;
+    background: #F8FAFC;
+    color: #0F172A;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+#schedule ul {
+    list-style: none;
+    padding: 20px;
+}
+
+#schedule li {
+    background: #F8FAFC;
+    color: #0F172A;
+    padding: 15px;
+    margin: 5px auto;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+#contact {
+    background: #1E293B;
+    color: rgb(48, 120, 236);
+    padding: 30px;
+}
+
+footer {
+    background: #111827;
+    color: rgb(48, 120, 236);
+    padding: 20px;
+    margin-top: 20px;
+}
